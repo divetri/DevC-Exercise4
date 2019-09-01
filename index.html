@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Excercise 4</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <title>Excercise 4</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <style type="text/css">
+    .container{
+      color: white;
+      border-radius: 5px;
+      padding: 20px 20px 20px 20px;
+      background: #2F495A; 
+    }
+  </style>
 </head>
-<body>
-	<center><h1>Final Project</h1></center>
-<script src="jquery-3.4.1.min.js"></script>
-<script src="bootstrap/js/bootstrap.js"></script>
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-  </ol>
+<body class="container">
+  <center><h1>Final Project</h1>
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+    <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="http://getwallpapers.com/wallpaper/full/2/c/7/90070.jpg" alt="good one">
-      <div class="carousel-caption">
-        Senja di sore hari
-      </div>
+      <div class="carousel-caption">Isi Form</div>
+      <a href="form1.html"><img src="http://getwallpapers.com/wallpaper/full/7/3/b/175265.jpg" alt="isiform"></a>
+        
     </div>
     <div class="item">
-      <img src="http://getwallpapers.com/wallpaper/full/5/a/b/90084.jpg" alt="isiform">
-      <div class="carousel-caption">
-        Isi Form
-      </div>
+      <a href="bio.html">
+        <img src="http://getwallpapers.com/wallpaper/full/2/c/7/90070.jpg" alt="good one">
+        <div class="carousel-caption">Tentang Saya</div>
     </div>
-    Komedi Putar
+    <div class="item">
+      <a href="calc.html">
+        <img src="http://getwallpapers.com/wallpaper/full/5/a/b/90084.jpg" alt="good one">
+        <div class="carousel-caption">Kalkulator</div>
+    </div>
   </div>
 
   <!-- Controls -->
@@ -42,5 +52,6 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+</center>
 </body>
 </html>
